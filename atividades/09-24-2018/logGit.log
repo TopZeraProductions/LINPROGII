@@ -1,0 +1,127 @@
+2018-09-24
+Dando o pull.. 
+fatal: Couldn't find remote ref master
+Status.. 
+No ramo master
+
+No commits yet
+
+Arquivos não monitorados:
+  (utilize "git add <arquivo>..." para incluir o que será submetido)
+
+	Disciplina.py
+	Professor.py
+	logGit.log
+	main.py
+
+nada adicionado ao envio mas arquivos não registrados estão presentes (use "git add" to registrar)
+Add to stage area.. 
+commiting.. 
+[master (root-commit) 0ef4d9c] Up
+ 4 files changed, 64 insertions(+)
+ create mode 100644 Disciplina.py
+ create mode 100644 Professor.py
+ create mode 100644 logGit.log
+ create mode 100644 main.py
+pushing:.. 
+remote: 
+remote: Create a pull request for 'master' on GitHub by visiting:        
+remote:      https://github.com/TopZeraProductions/LPII-AC04/pull/new/master        
+remote: 
+To https://github.com/TopZeraProductions/LPII-AC04.git
+ * [new branch]      master -> master
+done
+2018-09-24
+Dando o pull.. 
+From https://github.com/TopZeraProductions/LPII-AC04
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+Status.. 
+No ramo master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (utilize "git add/rm <arquivo>..." para atualizar o que será submetido)
+  (utilize "git checkout -- <arquivo>..." para descartar mudanças no diretório de trabalho)
+
+	deleted:    Disciplina.py
+	modified:   logGit.log
+	deleted:    main.py
+
+nenhuma modificação adicionada à submissão (utilize "git add" e/ou "git commit -a")
+Add to stage area.. 
+commiting.. 
+[master 988832c] Up
+ 3 files changed, 34 insertions(+), 4 deletions(-)
+ delete mode 100644 Disciplina.py
+ delete mode 100644 main.py
+pushing:.. 
+To https://github.com/TopZeraProductions/LPII-AC04.git
+   0ef4d9c..988832c  master -> master
+done
+2018-09-24
+Dando o pull.. 
+From https://github.com/TopZeraProductions/LPII-AC04
+ * branch            master     -> FETCH_HEAD
+   988832c..47cb3aa  master     -> origin/master
+Updating 988832c..47cb3aa
+Fast-forward
+ .idea/LPII-AC04.iml |  12 ++++
+ .idea/misc.xml      |   4 ++
+ .idea/modules.xml   |   8 +++
+ .idea/vcs.xml       |   6 ++
+ .idea/workspace.xml | 176 ++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Aluno.py            |  58 +++++++++++++++++
+ Disciplina.py       |  38 ++++++++++++
+ Professor.py        |  20 +++---
+ 8 files changed, 312 insertions(+), 10 deletions(-)
+ create mode 100644 .idea/LPII-AC04.iml
+ create mode 100644 .idea/misc.xml
+ create mode 100644 .idea/modules.xml
+ create mode 100644 .idea/vcs.xml
+ create mode 100644 .idea/workspace.xml
+ create mode 100644 Aluno.py
+ create mode 100644 Disciplina.py
+Status.. 
+No ramo master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (utilize "git add <arquivo>..." para atualizar o que será submetido)
+  (utilize "git checkout -- <arquivo>..." para descartar mudanças no diretório de trabalho)
+
+	modified:   logGit.log
+
+nenhuma modificação adicionada à submissão (utilize "git add" e/ou "git commit -a")
+Add to stage area.. 
+commiting.. 
+[master 43c9f47] Up
+ 1 file changed, 44 insertions(+)
+pushing:.. 
+To https://github.com/TopZeraProductions/LPII-AC04.git
+   47cb3aa..43c9f47  master -> master
+done
+2018-09-25
+Dando o pull.. 
+From https://github.com/TopZeraProductions/LPII-AC04
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+Status.. 
+No ramo master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (utilize "git add <arquivo>..." para atualizar o que será submetido)
+  (utilize "git checkout -- <arquivo>..." para descartar mudanças no diretório de trabalho)
+
+	modified:   logGit.log
+
+nenhuma modificação adicionada à submissão (utilize "git add" e/ou "git commit -a")
+Add to stage area.. 
+commiting.. 
+[master 74ee74c] Up
+ 1 file changed, 24 insertions(+)
+pushing:.. 
+To https://github.com/TopZeraProductions/LPII-AC04.git
+   43c9f47..74ee74c  master -> master
+done

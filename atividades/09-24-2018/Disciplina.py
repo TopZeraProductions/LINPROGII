@@ -1,4 +1,4 @@
-import Professor
+import Professor from Professor
 
 class Disciplina:
 

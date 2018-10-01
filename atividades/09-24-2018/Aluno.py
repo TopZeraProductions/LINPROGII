@@ -1,7 +1,6 @@
-import Disciplina 
 class Aluno:
 
-    def _init_(self, nome, email, ra, celular, desconto, disciplina):
+    def _init_(self):
         self.__nome = None
         self.__email = None
         self.__ra = None
@@ -10,49 +9,60 @@ class Aluno:
         self.__disciplina = None
         self.__listaDisciplina = []
 
-    def set_nome(self, arg):
-        self.__nome = arg
-
-    def get_nome(self):
+    @property
+    def nome(self):
         return self.__nome
 
-    def set_email(self, arg):
-        self.__email = arg
+    @nome.setter
+    def nome(self, arg):
+        self.__nome = arg
 
-    def get_email(self):
+    @property
+    def email(self):
         return self.__email
 
-    def set_ra(self, arg):
-        self.__ra = arg
+    @email.setter
+    def email(self, arg):
+        self.__email = arg
 
-    def get_ra(self):
+    @property
+    def ra(self):
         return self.__ra
 
-    def set_celular(self, arg):
-        self.__celular = arg
+    @ra.setter
+    def ra(self, arg):
+        self.__ra = arg
 
-    def get_celular(self):
+    @property
+    def celular(self):
         return self.__celular
 
-    def set_desconto(self, arg):
-        self.__desconto
+    @celular.setter
+    def celular(self, arg):
+        self.__celular = arg
 
-    def get_desconto(self):
+    @property
+    def desconto(self):
         return self.__desconto
 
-    def get_disciplinas(self):
-        return self.__disciplina.append(arg)
+    @desconto.setter
+    def desconto(self, arg):
+        self.__desconto = arg
 
-    def add_disciplina(disciplina: Disciplina): None
+    @property
+    def disciplinas(self):
+        return self.__disciplina
 
-    def aumenta_desconto(porcentagem): None
 
-    def diminui_desconto(porcentagem): None
-    
+    # métodos
+    def add_disciplina(self, Disciplina):
+        self.__listaDisciplina.append(Disciplina)
 
-    
-    
-    
+    def aumenta_desconto(self, value):
+        self.__desconto = self.__desconto + value
+
+    def diminui_desconto(self, value):
+        self.__desconto = self.__desconto - value
 
         
 

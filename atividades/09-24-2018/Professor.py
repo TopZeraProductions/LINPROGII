@@ -7,36 +7,42 @@ class Professor:
         self.__celular = None
         self.__listaDisciplina = []
 
-    def set_email(self, email):
-        self.__email = email
-
-    def get_email(self):
+    @property
+    def email(self):
         return self.__email
 
-    def set_nome(self, nome):
-        self.__nome = nome
+    @email.setter
+    def email(self, email):
+        self.__email = email
 
-    def get_nome(self):
+    @property
+    def nome(self):
         return self.__nome
 
+    @nome.setter
+    def nome(self, nome):
+        self.__nome = nome
+
+    @property
+    def ra(self):
+        return self.__ra
+
+    @ra.setter
     def set_ra(self, ra):
         self.__ra = ra
 
-    def get_ra(self):
-        return self.__ra
+    @property
+    def celular(self):
+        return self.__celular
 
-    def set_celular(self, celular):
+    @celular.setter
+    def celular(self, celular):
         self.__celular = celular
 
-    def get_celular(self):
-        return self.__celular
+    @property
+    def disciplinas(self):
+        return self.__listaDisciplina
 
     def add_disciplinas(self, discName):
         self.__listaDisciplina.append(discName)
-
-    def get_disciplinas(self):
-        return self.__listaDisciplina
-
-
-
 

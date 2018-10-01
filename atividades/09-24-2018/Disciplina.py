@@ -1,38 +1,57 @@
 import Professor
 
 class Disciplina:
+
     def __init__(self):
         self.__nome = None
         self.__cargaHoraria = None
         self.__mensalidade = None
         self.__professor = Professor
 
-    def set_nome(self, nome):
-        self.__nome = nome
-
-    def set_cargaHoraria(self, cargaHoraria):
-        self.__cargaHoraria = cargaHoraria
-
-    def set_mensalidade(self, mensalidade):
-        self.__mensalidade = mensalidade
-
-    def set_Professor(self, professor):
-        self.__professor = Professor
-
-    def get_nome(self):
+    @property
+    def nome(self):
         return self.__nome
 
-    def get_cargaHoraria(self):
+    @nome.setter
+    def nome(self, nome):
+        self.__nome = nome
+
+    @property
+    def cargaHoraria(self):
         return self.__cargaHoraria
 
-    def get_mensalidade(self):
+    @cargaHoraria.setter
+    def cargaHoraria(self, cargaHoraria):
+        self.__cargaHoraria = cargaHoraria
+
+    @property
+    def mensalidade(self):
         return self.__mensalidade
 
-    def get_Professor(self):
-        return self.__Professor
+    @mensalidade.setter
+    def mensalidade(self, mensalidade):
+        self.__mensalidade = mensalidade
 
+    @property
+    def professor(self):
+        return self.__professor
+
+    @professor.setter
+    def professor(self, professor):
+        self.__professor = professor
+
+    @property
     def retornaValorHora(self, value):
         return self.__value
 
+x = Disciplina()
+x.nome = "Teste"
+x.cargaHoraria = "50 horas"
+x.mensalidade = "R$ 150,00"
+x.professor = Professor()
 
+print(x.nome)
+print(x.cargaHoraria)
+print(x.mensalidade)
+print(x.professor.nome)
 

@@ -1,4 +1,4 @@
-import Professor from Professor
+from Professor import Professor
 
 class Disciplina:
 
@@ -46,10 +46,9 @@ class Disciplina:
 
 x = Disciplina()
 x.nome = "Teste"
-x.cargaHoraria = "50 horas"
+x.cargaHoraria = 50
 x.mensalidade = "R$ 150,00"
-x.professor = Professor()
-
+x.professor.nome = "Lagreca"
 print(x.nome)
 print(x.cargaHoraria)
 print(x.mensalidade)

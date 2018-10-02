@@ -41,7 +41,7 @@ class Disciplina:
         self.__professor = professor
 
     @property
-    def retornaValorHora(self, value):
+    def retornaValorHora(self):
         return self.__value
 
 x = Disciplina()
@@ -62,6 +62,6 @@ print(x.professor.email)
 print(x.professor.ra)
 print(x.professor.celular)
 print(x.professor.disciplinas)
-print(x.retornaValorHora(13))
+print(x.retornaValorHora())
 
 

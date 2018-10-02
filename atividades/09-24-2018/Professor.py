@@ -42,7 +42,7 @@ class Professor:
     @property
     def disciplinas(self):
         return self.__listaDisciplina
-    
+
     def add_disciplinas(self, discName):
         self.__listaDisciplina.append(discName)
 

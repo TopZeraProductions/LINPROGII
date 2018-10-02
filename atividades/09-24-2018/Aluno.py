@@ -1,13 +1,13 @@
+from Disciplina import Disciplina
 class Aluno:
 
-    def _init_(self):
+    def __init__(self):
         self.__nome = None
         self.__email = None
         self.__ra = None
         self.__celular = None
         self.__desconto = None
-        self.__disciplina = None
-        self.__listaDisciplina = []
+        self.__lista_disciplinas = []
 
     @property
     def nome(self):
@@ -51,12 +51,11 @@ class Aluno:
 
     @property
     def disciplinas(self):
-        return self.__disciplina
-
+        return self.__lista_disciplinas
 
     # métodos
     def add_disciplina(self, Disciplina):
-        self.__listaDisciplina.append(Disciplina)
+        self.__lista_disciplinas.append(Disciplina)
 
     def aumenta_desconto(self, value):
         self.__desconto = self.__desconto + value
@@ -64,5 +63,29 @@ class Aluno:
     def diminui_desconto(self, value):
         self.__desconto = self.__desconto - value
 
-        
 
+joao = Aluno()
+
+joao.nome = "Joao"
+joao.email = "joao@yahoo.com"
+joao.ra = "1111111"
+joao.celular = "1111111"
+joao.desconto = 1
+
+Disc1 = Disciplina()
+Disc1.nome = "História"
+
+Disc2 = Disciplina()
+Disc2.nome = "Matemática"
+
+joao.add_disciplina(Disc1)
+joao.add_disciplina(Disc2)
+
+print(joao.nome)
+print(joao.email)
+print(joao.ra)
+print(joao.celular)
+print(joao.desconto)
+
+for disciplina in joao.disciplinas:
+    print("> ", disciplina.nome)

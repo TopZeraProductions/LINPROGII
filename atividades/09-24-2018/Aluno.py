@@ -64,6 +64,8 @@ class Aluno:
         self.__desconto = self.__desconto - value
 
 
+
+#Setor de testes
 joao = Aluno()
 
 joao.nome = "Joao"

@@ -47,10 +47,21 @@ class Disciplina:
 x = Disciplina()
 x.nome = "Teste"
 x.cargaHoraria = 50
-x.mensalidade = "R$ 150,00"
-x.professor.nome = "Lagreca"
+x.mensalidade = 150
+x.professor.nome = "Tomás Ferreira"
+x.professor.email = "tomas@gmail.com"
+x.professor.ra = 1800299
+x.professor.celular = 11988972762
+x.professor.disciplinas = "Ciências"
+#x.retornaValorHora
 print(x.nome)
 print(x.cargaHoraria)
 print(x.mensalidade)
 print(x.professor.nome)
+print(x.professor.email)
+print(x.professor.ra)
+print(x.professor.celular)
+print(x.professor.disciplinas)
+print(x.retornaValorHora(13))
+
 

@@ -28,7 +28,7 @@ class Professor:
         return self.__ra
 
     @ra.setter
-    def set_ra(self, ra):
+    def ra(self, ra):
         self.__ra = ra
 
     @property

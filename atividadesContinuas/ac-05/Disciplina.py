@@ -1,3 +1,9 @@
+#João Vitor Paulino - 1801021 - paulino.joaovitor@yahoo.com.br
+#Daniel Roberto - 1800479 - bruce-irom@hotmail.com
+#Tiago Beneteli - 1800804 - tiagobeneteli@hotmail.com
+#Ramon C. Pires - 1800260 - ramoncavpires@gmail.com
+
+
 from Professor import Professor
 
 class Disciplina:
@@ -63,3 +69,5 @@ print(x.professor.ra)
 print(x.professor.celular)
 print(x.professor.disciplinas)
 print("carga horaria : ",x.retorna_valorHora())
+
+

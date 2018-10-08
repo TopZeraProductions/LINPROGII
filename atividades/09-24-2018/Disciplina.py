@@ -40,9 +40,9 @@ class Disciplina:
     def professor(self, professor):
         self.__professor = professor
 
-    @property
-    def retornaValorHora(self):
-        return self.__value
+
+    def retorna_valorHora(self):
+        return (float(self.__mensalidade) * 6 )/ float(self.__cargaHoraria)
 
 x = Disciplina()
 x.nome = "Teste"
@@ -53,7 +53,7 @@ x.professor.email = "tomas@gmail.com"
 x.professor.ra = 1800299
 x.professor.celular = 11988972762
 x.professor.disciplinas = "Ciências"
-#x.retornaValorHora
+
 print(x.nome)
 print(x.cargaHoraria)
 print(x.mensalidade)
@@ -62,6 +62,6 @@ print(x.professor.email)
 print(x.professor.ra)
 print(x.professor.celular)
 print(x.professor.disciplinas)
-print(x.retornaValorHora())
+print("carga horaria : ",x.retorna_valorHora())
 
 

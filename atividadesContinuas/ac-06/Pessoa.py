@@ -54,3 +54,6 @@ class Pessoa:
     # métodos
     def add_disciplina(self, Disciplina):
         self.__lista_disciplinas.append(Disciplina)
+
+
+

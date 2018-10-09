@@ -11,7 +11,7 @@ def createAluno():
     return Aluno
 
 def test_name():
-    objTeste = new createAluno()
+    objTeste = createAluno()
     objTeste.nome = "joao"
     return (objTeste.nome == "joao")
 

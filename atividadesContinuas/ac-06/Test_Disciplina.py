@@ -5,13 +5,6 @@ def create_obj():
     obj.__init__()
     return obj
 
-    self.__nome = None
-    self.__cargaHoraria = None
-    self.__mensalidade = None
-    self.__professor = Professor
-
-
-
 def test_name():
     objTeste = create_obj()
 
@@ -24,3 +17,20 @@ def test_name():
 
 def test_carga_horaria():
     objTeste = create_obj()
+
+    objTeste.carga_horaria = 30
+    assert (objTeste.carga_horaria == 30)
+
+def test_mensalidade():
+    objTeste = create_obj()
+
+    objTeste.mensalidade = 200
+    assert (objTeste.mensalidade == 200)
+
+def test_retorna_valor_Hora_method():
+    objTeste = create_obj()
+
+    objTeste.carga_horaria = 30
+    objTeste.mensalidade = 200
+    teste = objTeste.retorna_valor_Hora()
+    assert (teste == float(40.0))

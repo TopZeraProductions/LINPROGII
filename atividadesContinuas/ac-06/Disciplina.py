@@ -4,7 +4,7 @@ class Disciplina:
 
     def __init__(self):
         self.__nome = None
-        self.__cargaHoraria = None
+        self.__carga_horaria = None
         self.__mensalidade = None
         self.__professor = Professor
 
@@ -17,12 +17,12 @@ class Disciplina:
         self.__nome = nome
 
     @property
-    def cargaHoraria(self):
-        return self.__cargaHoraria
+    def carga_horaria(self):
+        return self.__carga_horaria
 
-    @cargaHoraria.setter
-    def cargaHoraria(self, cargaHoraria):
-        self.__cargaHoraria = cargaHoraria
+    @carga_horaria.setter
+    def carga_horaria(self, carga_horaria):
+        self.__carga_horaria = carga_horaria
 
     @property
     def mensalidade(self):
@@ -37,8 +37,8 @@ class Disciplina:
         return self.__professor
 
     @professor.setter
-    def professor(self, professor):
-        self.__professor = professor
+    def professor(self, Professor):
+        self.__professor = Professor
 
-    def retorna_valorHora(self):
-        return (float(self.__mensalidade) * 6 )/ float(self.__cargaHoraria)
+    def retorna_valor_Hora(self):
+        return (float(self.__mensalidade) * 6 )/ float(self.__carga_horaria)

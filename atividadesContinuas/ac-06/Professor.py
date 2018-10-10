@@ -8,15 +8,3 @@ from Pessoa import Pessoa
 class Professor(Pessoa):
     def __init__(self):
         super().__init__()
-
-x = Professor()
-x.nome = "Tomás Ferreira"
-x.email = "tomas@gmail.com"
-x.ra = 1800299
-x.celular = 11988972762
-x.add_disciplinas = "Ciências"
-print(x.nome)
-print(x.email)
-print(x.ra)
-print(x.celular)
-print(x.add_disciplinas)

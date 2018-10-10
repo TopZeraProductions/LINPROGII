@@ -1,5 +1,4 @@
 class Pessoa:
-
     def __init__(self):
         self.__nome = None
         self.__email = None
@@ -51,9 +50,6 @@ class Pessoa:
     def disciplinas(self):
         return self.__lista_disciplinas
 
-    # métodos
+    # metodos
     def add_disciplina(self, Disciplina):
         self.__lista_disciplinas.append(Disciplina)
-
-
-

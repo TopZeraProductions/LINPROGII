@@ -1,7 +1,7 @@
-from Aluno import Aluno
+from Professor import Professor
 
 def create_obj():
-    obj = object.__new__(Aluno)
+    obj = object.__new__(Professor)
     obj.__init__()
     return obj
 
@@ -44,17 +44,6 @@ def test_celular():
     assert (objTeste.celular == "654321")
     objTeste.celular = "6543255"
     assert (objTeste.celular == "6543255")
-
-def test_desconto_methods():
-    objTeste = create_obj()
-    objTeste.desconto = 5
-
-    objTeste.aumenta_desconto(5)
-    assert(objTeste.desconto == 10)
-
-    objTeste.diminui_desconto(5)
-    assert(objTeste.desconto == 5)
-
 
 def test_lista_disciplinas_methods():
     objTeste = create_obj()

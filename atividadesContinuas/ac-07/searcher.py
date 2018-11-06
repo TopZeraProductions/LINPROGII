@@ -1,13 +1,22 @@
+'''
+    João Vitor Paulino - 1801021 - paulino.joaovitor@yahoo.com.br
+
+    Daniel Roberto - 1800479 - bruce-irom@hotmail.com
+
+    Tiago Beneteli - 1800804 - tiagobeneteli@hotmail.com
+'''
 import unittest
 
 class SearchFile():
 
+    #metodo modificado
     def __init__(self, arquivo):
         self.lista = arquivo.readlines()
 
+
+    #metodo modificado
     def buscar(self, string):
         cont = []
-
         for linha in self.lista:
             if string in linha:
                 cont.append(string)

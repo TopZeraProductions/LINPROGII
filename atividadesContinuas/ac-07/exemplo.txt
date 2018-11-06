@@ -1,0 +1,4 @@
+uma pessoa vai
+aprender a ler muitos
+arquivos em python.
+

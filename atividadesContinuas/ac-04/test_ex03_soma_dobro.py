@@ -1,11 +1,9 @@
-# -*- coding: utf-8 -*-
-# Exercícios by Nick Parlante (CodingBat)
-
-# C. soma_dobro
-# dados dois números inteiros retorna sua soma
-# porém se os números forem iguais retorna o dobro da soma
-# soma_dobro(1, 2) -> 3
-# soma_dobro(2, 2) -> 8
+#-----------------------------------#
+# AC4 - Linguagem de Programação II
+# João vitor paulino Ra: 1801021
+#
+# exercício AC-04 testes - objetivo do exercício é concertar os metodos para que os testes sejam executados corretamente
+#-----------------------------------#
 def soma_dobro(a, b):
   if a == b:
     return 2 * (a + b )

@@ -1,3 +1,10 @@
+#-----------------------------------#
+# AC1 - Linguagem de Programação II
+# João vitor paulino Ra: 1801021
+#
+#  exercício AC-03 encapsulamento simples (get, set)
+#-----------------------------------#
+
 class Pessoa:
     def _init_ (self):
         self.__nome = ""

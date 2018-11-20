@@ -1,11 +1,9 @@
-# -*- coding: utf-8 -*-
-# Exercícios by Nick Parlante (CodingBat)
-
-# B. alunos_problema
-# temos dois alunos a e b
-# a_sorri e b_sorri indicam se a e b sorriem
-# temos problemas quando ambos estão sorrindo ou ambos não estão sorrindo
-# retorne True quando houver problemas
+#-----------------------------------#
+# AC4 - Linguagem de Programação II
+# João vitor paulino Ra: 1801021
+#
+# exercício AC-04 testes - objetivo do exercício é concertar os metodos para que os testes sejam executados corretamente
+#-----------------------------------#
 
 def alunos_problema(a_sorri, b_sorri):
   if a_sorri == b_sorri:

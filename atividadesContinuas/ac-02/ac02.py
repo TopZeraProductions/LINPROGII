@@ -1,7 +1,10 @@
 '''
-Ac de linguagem de programação
-
-João vitor paulino martins RA: 1801021
+#-----------------------------------#
+# AC1 - Linguagem de Programação II
+# João vitor paulino Ra: 1801021
+#
+#  exercício AC-02
+#-----------------------------------#
 ------------------------------------------------
 Criar um cadastro de Funcionários por Nome e CPF.
 O usuário deve digitar a quantidade de

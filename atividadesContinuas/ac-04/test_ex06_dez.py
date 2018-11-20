@@ -1,9 +1,10 @@
-# -*- coding: utf-8 -*-
-# Exercícios by Nick Parlante (CodingBat)
+#-----------------------------------#
+# AC4 - Linguagem de Programação II
+# João vitor paulino Ra: 1801021
+#
+# exercício AC-04 testes - objetivo do exercício é concertar os metodos para que os testes sejam executados corretamente
+#-----------------------------------#
 
-# F. dez
-# dados dois inteiros a e b
-# retorna True se um dos dois é 10 ou a soma é 10
 def dez(a, b):
   if a == 10 or b == 10 or ( a + b ) ==10:
     return True

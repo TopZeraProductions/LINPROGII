@@ -1,11 +1,10 @@
-# -*- coding: utf-8 -*-
-# Exercícios by Nick Parlante (CodingBat)
+#-----------------------------------#
+# AC4 - Linguagem de Programação II
+# João vitor paulino Ra: 1801021
+#
+# exercício AC-04 testes - objetivo do exercício é concertar os metodos para que os testes sejam executados corretamente
+#-----------------------------------#
 
-# E. papagaio
-# temos um papagaio que fala alto
-# hora é um parâmetro entre 0 e 23
-# temos problemas se o papagaio estiver falando
-# antes da 7 ou depois das 20
 def papagaio(falando, hora):
   if hora < 7 or hora > 20:
     if falando:

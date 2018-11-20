@@ -1,11 +1,10 @@
-# -*- coding: utf-8 -*-
-# Exercícios by Nick Parlante (CodingBat)
+#-----------------------------------#
+# AC4 - Linguagem de Programação II
+# João vitor paulino Ra: 1801021
+#
+# exercício AC-04 testes - objetivo do exercício é concertar os metodos para que os testes sejam executados corretamente
+#-----------------------------------#
 
-# A. dormir
-# dia_semana é True para dias na semana
-# feriado é True nos feriados
-# você pode ficar dormindo quando é feriado ou não é dia semana
-# retorne True ou False conforme você vá dormir ou não
 def dormir(dia_semana, feriado):
   if (feriado or not dia_semana):
       return True
